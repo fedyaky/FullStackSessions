@@ -15,6 +15,7 @@ class Student {
     String firstName;
     String lastName;
     int age;
+    String details;
 
     public void inputDetails() {
         Scanner scanner = new Scanner(System.in);
@@ -27,6 +28,7 @@ class Student {
         System.out.println("Enter student age: ");
         age = scanner.nextInt();
         System.out.println("Input details called");
+        details = scanner.next();
         scanner.close();
     }
 
@@ -35,6 +37,7 @@ class Student {
         System.out.println("Student ID: " + id);
         System.out.println("Student Name: " + firstName + " " + lastName);
         System.out.println("Student Age: " + age);
+        System.out.println("Student Details: " + details);
         System.out.println("\n ========Student details========");
     }
 }
