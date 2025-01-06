@@ -95,6 +95,10 @@ public class StudentManagement {
                             break;
                         }
                     }
+                    if (!found) {
+                        System.out.println("Student ID not found");
+                    }
+                    break;
 
                 case 4:
                     scanner.close();
