@@ -76,9 +76,7 @@ public class MatrixExample {
             }
             System.out.println();
         }
-
             return transposed;
-
 
    }
 }
