@@ -107,7 +107,7 @@ public class StudentManagement {
 
                 default:
                     System.out.println("Invalid choice. Please enter a valid choice.");
-                    break;
+                    break; // where break is used to exit the switch statement and continue with the next iteration of the loop (if any) or exit the loop (if there are no more iterations)
             }
         }
     }

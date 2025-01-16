@@ -28,7 +28,7 @@ public class StudentManagmentSystem {
                 case 1:
                     System.out.println("Enter student ID: ");
                     studentId = scanner.nextInt();
-                    if (studentId < 0 && studentId > 100) {
+                    if (studentId < 0 || studentId > 100) { // where || is the logical OR operator
                         System.out.println("Invalid student ID");
                         break;
                     }
