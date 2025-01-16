@@ -61,3 +61,18 @@ public class MatrixSearch {
         }
     }
 }
+//Create method to print the matrix
+//Calculate sum of all numbers in matrix
+//Calculate sum for each column
+//Create another matrix where rows will be columns of the original one
+//
+//Create a matrix of size 4x4 using Random
+//Print result
+//
+//Ask user to provide a number
+//Search for that number in matrix and replace with -10
+//Print resulting matrix
+//
+//If number was not found show message "Number not found in the matrix"
+
+
